@@ -122,6 +122,8 @@ font-size: 14px;
 #colored-button{
     background: #c70404e7;
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
 }
 .button3{
     font-weight: 600;
