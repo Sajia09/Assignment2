@@ -1,0 +1,49 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*---------------
+     Header Part 
+ ----------------*/
+ .header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 0;
+ }
+ .banner{
+    padding-left: 60px;
+    padding-left: 60px;
+    border-radius: 30px;
+ }
+ .headline{
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+ }
+ .banner-text{
+    color: #FFFFFF;
+ }
+ .button1{
+    width: 187px;
+    height: 56px;
+    background: #c70404e7;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .banner-image img{
+    width: 90%;
+    margin-bottom: 0;
+ }
